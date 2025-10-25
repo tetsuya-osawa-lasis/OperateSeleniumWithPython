@@ -14,11 +14,17 @@ from selenium.webdriver.common.keys import Keys
 ### ↑ライブラリインポート
 
 
+# [kudo]（優先度3）このPythonが、どのOSのPCで動作しているかを取得するための管理クラスを作成し、その情報を取得するメソッドをここに追加する
+
+# [kudo]（優先度3）上記で取得したOS情報を基に、WebDriverのパスを制御特定する記述に変更する
+
+# [kudo]（優先度3）WebDriverを取得するための管理クラスを作成し、メソッド化し、それを参照する記述に変更する
 
 # EdgeDriverのパス
 _filePath_MsEdgeDriverExe: str = os.getcwd() + "\\msedgedriver.exe"
 
 # ChromeDriverのパス
+# 最新版のダウンロードサイト https://googlechromelabs.github.io/chrome-for-testing/
 _filePath_ChromeDriverExe: str = os.getcwd() + "/chromedriver"
 
 # ドライバー指定でEdgeブラウザを開く
