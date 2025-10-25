@@ -18,10 +18,19 @@ from selenium.webdriver.common.keys import Keys
 # EdgeDriverのパス
 _filePath_MsEdgeDriverExe: str = os.getcwd() + "\\msedgedriver.exe"
 
+# ChromeDriverのパス
+_filePath_ChromeDriverExe: str = os.getcwd() + "/chromedriver"
+
 # ドライバー指定でEdgeブラウザを開く
 _msEdgeDriberService = fs.Service(executable_path = _filePath_MsEdgeDriverExe)
 
-_driver: webdriver = webdriver.Edge(service = _msEdgeDriberService)
+# ドライバー指定でChromeブラウザを開く
+_msChromeDriberService = fs.Service(executable_path = _filePath_ChromeDriverExe)
+
+#_driver: webdriver = webdriver.Edge(service = _msEdgeDriberService)
+
+_driver: webdriver = webdriver.Chrome(service = _msChromeDriberService)
+
 
 _url: str = "https://www.google.com/"
 
