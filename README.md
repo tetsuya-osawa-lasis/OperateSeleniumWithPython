@@ -16,7 +16,7 @@
 *   手順2: 生成AIの回答通りに、環境構築作業を行う。
 *   手順3: Gitの設定をする。
     https://qiita.com/generosity_hiroto_taniguchi/items/0a1c9a2548527f50b5ff  
-*   手順4: このリポジトリの直下にある「chromedriver」を最新化する。
+*   手順4: このリポジトリの直下にあるMac用の「chromedriver」を最新化する。
     https://googlechromelabs.github.io/chrome-for-testing/
 *   手順5: Mac OSが、「chromedriver」を、セキュリティ上の理由から「実行不可」に設定している場合がある。「システム設定」→「プライバシーとセキュリティ」→「右の画面で、一番下までスクロール」を行い、「chromedriver」に関する情報があるかを確認
 *   手順6: 上記で、「chromedriver」に関する情報がある場合は、実行できるように画面に従い操作する。
