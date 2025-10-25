@@ -1,0 +1,246 @@
+<html lang="ja"><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>新規予約申込 完了 ｜ 札幌市公共施設予約情報システム</title>
+    <meta name="description" content="札幌市公共施設予約情報システム インターネット等を通じ、各種施設の情報が一元的に閲覧でき、施設の案内から予約までを簡単に行えるサービスです。">
+    <meta name="keywords" content="札幌市公共施設予約情報システム,施設検索,予約申込">
+    <link rel="icon" href="/sapporo/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sapporo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/sapporo/android-touch-icon.png" sizes="192x192">
+
+    
+    
+        <link rel="stylesheet" href="/sapporo/css/style.css?v=_U0TM22D3CHeWw7noisI93bJCHbWj29y25Lp6pMbJIs">
+    
+<style type="text/css">html{font-size: 15px;}.SideNav,.v-app-bar,.Breadcrumbs,#main,#fixedCotnentsWrapper > .FixedBtnContainer,.h-fixedContent,.v-dialog,.GoToBack.v-btn,.LoadingOverlay,.v-btn--fixed,.Footer,#dialogArea .v-select--is-menu-active,.v-menu__content,.HeaderTitleWrapper,.v-application:before{filter: brightness(100%) contrast(100%);}</style><style id="patched-viewport">@-webkit-keyframes error-ripple { 
+  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@keyframes error-ripple { 
+  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@-webkit-keyframes focus-ripple { 
+  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@keyframes focus-ripple { 
+  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+.v-snack:not(.v-snack--absolute) {
+height: 928px;
+}
+
+.v-application--wrap {
+min-height: 928px;
+}
+
+.v-application > .v-content {
+min-height: 928px;
+}
+
+.Combobox_StyledContent.v-menu__content {
+max-height: 742.4000000000001px;
+}
+
+.ConfirmDialog_body {
+max-height: calc(-5rem + 928px);
+}
+
+.ListTable.ListTable .ListTable_selectedList .v-table__overflow {
+max-height: 371.20000000000005px;
+}
+
+.SelectedList .v-table__overflow {
+max-height: 371.20000000000005px;
+}
+
+.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_head_inner {
+max-width: 1636px;
+}
+
+.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_rowTitle {
+max-width: 572.5999999999999px;
+}
+
+.AvailabilityFrames.is-fixed .AvailabilityFrames_gridTable_thead_rowTitle::after, .AvailabilityFrames.is-fixed .AvailabilityFrames_timeHeader_hourInner::after {
+height: 464px;
+}
+
+.BottomSheet.v-dialog .BottomSheet_list {
+max-height: 464px;
+}
+
+@media screen and (max-width: 959px) {
+.DialogBox {
+max-width: calc(-2rem + 1636px);
+}
+}
+
+.is-fontsizeBig .DialogBox {
+max-width: calc(-30px + 1636px);
+}
+
+.HelpBtn_content_body {
+max-height: calc(-3.2rem + 928px);
+}
+
+.HelpBtn_content_tabItem .v-window-item {
+max-height: calc(-18rem + 881.5999999999999px);
+}
+
+@media screen and (max-width: 599px) {
+.HelpBtn_content_tabItem .v-window-item {
+min-height: calc(-18rem + 881.5999999999999px);
+}
+}
+
+.SideNav {
+max-height: calc(-4rem + 928px) !important;
+}
+
+@media screen and (max-width: 959px) {
+.SideNav {
+max-height: 928px !important;
+}
+}
+
+@media screen and (max-width: 599px) {
+.SideNav {
+width: 928px !important;
+}
+}</style></head>
+<body>
+    <div id="container" tabindex="-1">
+        <div id="app" data-app="true" class="theme--light v-application v-application--is-ltr"><div id="dialogArea"><div></div></div> <div class="GlobalNavs"><div class="GlobalNavs_title HeaderTitleWrapper is-straight d-md-none"><div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム" class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img" src="/sapporo/assets/images/title_other_sapporo.svg?v=ndyjqPcBVpc3lfmKYqR6OKBF9QSQlgu_6Q36lUoNlwY" alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div></div><header class="Header v-sheet theme--light v-toolbar v-app-bar v-app-bar--clipped v-app-bar--fixed" data-booted="true" style="margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"><div class="v-toolbar__content"><div class="Header_title HeaderTitleWrapper is-dark"><div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム" class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img" src="/sapporo/assets/images/title_menu_sapporo.svg?v=q_Y8xTiWjWBvpQWSJUFgBbM3ZleXBRj9KwjZv_mQeNI" alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div></div><div class="v-toolbar__items Header_toolbarWrapper mr-3"><a href="#mainWrapper" class="h-showAtForcus v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">arrow_downward</i> <span class="IconTextContainer_text">
+                                本文へ移動
+                            </span></span></span></a><!----><button type="button" class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default secondary" aria-controls="global-navs-1-drawer" aria-expanded="true"><span class="v-btn__content"><span class="IconTextContainer"><div><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">close</i><!----></div><span class="IconTextContainer_text">メニュー <span class="h-hiddenAccessible"> 閉じる</span></span></span></span></button></div><div class="SideNav v-navigation-drawer v-navigation-drawer--clipped v-navigation-drawer--fixed v-navigation-drawer--open theme--light" id="global-navs-1-drawer" tabindex="-1" data-booted="true" style="height: 100vh; transform: translateX(0%); width: 20rem;"><div class="v-navigation-drawer__content"><nav aria-label="メニュー" class="SideNav_content"><div class="SideNav_header"><div class="SideNav_header_icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">menu</i><svg aria-hidden="true" class="SvgIcon v-icon notranslate material-icons secondary--stroke warning--text GlobalNavs_loggedinIcon"><text x=".1em" y="1em" paint-order="stroke" stroke-width=".2em">person</text></svg></div> メニュー <div class="spacer"></div><button type="button" class="SideNav_closeBtn is-top transparent v-btn v-btn--outlined theme--light v-size--large white--text" style="display: none;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">close</i> 閉じる </span></button></div><div role="list" class="v-list SideNav_menu is-main v-sheet theme--light"><a tabindex="0" href="/sapporo" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">home</i></div> <div class="v-list-item__content"><div class="v-list-item__title">ホーム</div></div></a> <a tabindex="0" href="/sapporo/FacilitySearch/Index" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">domain</i></div> <div class="v-list-item__content"><div class="v-list-item__title">施設一覧・検索</div></div></a> <a tabindex="0" href="/sapporo/Notices/Index" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">info</i></div> <div class="v-list-item__content"><div class="v-list-item__title">お知らせ</div></div></a> <div class="SideNav_pocket h-deep py-5"><div class="px-3"><div class="mb-2"><span class="Label is-small warning mr-2"><i aria-hidden="true" class="v-icon notranslate h-ctDeep v-icon--left material-icons theme--light">person</i>
+                                ログイン中
+                                <span class="h-hiddenAccessible">:</span></span> <span class="font-weight-bold">工藤　真咲</span> <span class="font-weight-regular h-font-small">さん</span></div> <div class="BtnGroup d-flex justify-center is-large ma-0"><span class="BtnGroup_btnWrapper"><a href="/sapporo/RequestStatuses/Index" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large secondary"><span class="v-btn__content"><span class="IconTextContainer is-wide"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">access_time</i> <span class="IconTextContainer_text">
+                                                申込状況
+                                            </span></span></span></a></span> <span class="BtnGroup_btnWrapper"><a href="/sapporo/Favorites/Index" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large secondary"><span class="v-btn__content"><span class="IconTextContainer is-wide"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">star</i> <span class="IconTextContainer_text">
+                                                    お気に入り
+                                                </span></span></span></a></span> <span class="BtnGroup_btnWrapper"><a href="/sapporo/Messages/Index" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large secondary"><span class="v-btn__content"><span class="IconTextContainer is-wide"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">email</i> <span class="IconTextContainer_text">
+                                                    メッセージ
+                                                </span></span></span></a></span></div></div> <div role="list" class="v-list SideNav_menu is-sub mt-3 v-sheet theme--light"><a tabindex="0" href="/sapporo/Users/Details" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">settings</i></div> <div class="v-list-item__content"><div class="v-list-item__title">アカウント設定</div></div></a> <a tabindex="0" href="/sapporo/Logout" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">exit_to_app</i></div> <div class="v-list-item__content"><div class="v-list-item__title">ログアウト</div></div></a></div></div></div> <div role="list" class="v-list SideNav_menu is-sub v-sheet theme--light"><a tabindex="0" href="/sapporo/public/help.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">help</i></div> <div class="v-list-item__content"><div class="v-list-item__title">ヘルプ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/Sitemap" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">map</i></div> <div class="v-list-item__content"><div class="v-list-item__title">サイトマップ</div></div></a> <a tabindex="0" href="/sapporo/public/terms.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">subject</i></div> <div class="v-list-item__content"><div class="v-list-item__title">規約と方針<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/public/contact.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">phone</i></div> <div class="v-list-item__content"><div class="v-list-item__title">お問い合わせ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/public/tokushoho.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">format_list_bulleted</i></div> <div class="v-list-item__content"><div class="v-list-item__title">特定商取引法に基づく表示<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></div><div class="text-center"><button type="button" class="SideNav_closeBtn is-bottom transparent v-btn v-btn--outlined theme--light v-size--large white--text h-showAtForcus"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">close</i> 閉じる </span></button></div></nav></div><div class="v-navigation-drawer__border"></div></div><div><span>ログイン中：</span> <strong class="text-truncate">工藤　真咲</strong> <span>さん</span> <span><a href="/sapporo/Logout" class="is-md-default h-deep v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">exit_to_app</i>
+                    ログアウト
+                </span></a></span></div><div class="spacer"></div><hr role="presentation" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light"><button type="button" class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default" aria-controls="globalConfigDialog"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">font_adjuster</i> <span class="IconTextContainer_text">
+                                表示設定
+                            </span></span></span></button><div role="presentation" aria-hidden="true" class="v-dialog__container" title="表示設定"></div></div></header></div> <div class="v-main v-content" data-booted="true" style="padding: 0px 0px 0px 300px;"><div class="v-main__wrap v-content__wrap"><nav aria-labelledby="bread-2_label" class="Breadcrumbs"><span id="bread-2_label" role="presentation" class="h-hiddenAccessible">ナビゲーション:</span><ul class="v-breadcrumbs theme--light"><li><a href="/sapporo/" class="v-breadcrumbs__item"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light Breadcrumbs_homeIcon">home</i><span class="Breadcrumbs_name"> ホーム </span></a></li><li class="v-breadcrumbs__divider"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">chevron_right</i></li><li><a href="https://yoyaku.harp.lg.jp/sapporo/FacilityAvailability/Index/011002/0055?ptn=2&amp;d=2025-11-27&amp;sd=2025-11-27&amp;ed=2025-11-27" class="v-breadcrumbs__item"><!----><span class="Breadcrumbs_name"> 施設の空き状況 </span></a></li><li class="v-breadcrumbs__divider"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">chevron_right</i></li><li role="presentation"></li></ul></nav> <main role="main" id="mainWrapper" tabindex="-1" class="container container--fluid main_wrapper"><div id="main" class="main container grid-list-md
+    
+ "><!----> <h1 class="Heading1"><i aria-hidden="true" class="v-icon notranslate Heading_icon material-icons theme--light">calendar_today</i>
+        新規予約申込
+        <div class="spacer"></div> <span class="Label is-whiteBack ml-2"><span class="h-font-small">どうぎんカーリングスタジアム</span></span> <div role="presentation" aria-hidden="true" class="v-dialog__container d-inline"></div><a href="/sapporo/public/reservations-insert.html" target="_blank" class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">help</i><span class="h-hiddenAccessible">ヘルプ - 予約申込</span><span aria-hidden="true" role="presentation" class="IconTextContainer_text"> ヘルプ <i aria-hidden="true" class="v-icon notranslate material-icons theme--light">open_in_new</i></span><span class="h-hiddenAccessible">ウインドウを別のタブで表示します</span></span></span></a></h1> <div role="alert" class="v-alert mt-3 v-sheet theme--light warning"><div class="v-alert__wrapper"><div class="v-alert__content"><span class="BalloonBeak warning--text is-bottom is-4per4"></span> <strong>予約申込が完了しました。</strong></div></div></div> <div class="v-stepper is-4step theme--light" role="region" aria-label="ステップフロー"><div class="v-stepper__header"><div class="v-stepper__step"><span class="v-stepper__step__step">1</span><div class="v-stepper__label">内容入力</div></div><div class="v-stepper__step"><span class="v-stepper__step__step">2</span><div class="v-stepper__label">支払方法</div></div><div class="v-stepper__step"><span class="v-stepper__step__step">3</span><div class="v-stepper__label">確認</div></div><div class="v-stepper__step v-stepper__step--active" aria-current="step"><span class="v-stepper__step__step primary">4</span><div class="v-stepper__label">完了</div></div></div></div> <table-of-contents></table-of-contents> <h2 class="Heading2 mt-5">
+    受付番号
+</h2> <div role="list" class="v-list is-withBorder v-sheet theme--light"><div role="listitem" class="is-labeled-status-small h-flex-fb-wrap v-list-item theme--light"><span class="Label is-status is-small mr-2" style="color: rgb(40, 49, 67); background-color: rgb(23, 174, 154);"><span class="h-hiddenAccessible">申込状態：</span> <i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light" style="color: rgb(40, 49, 67);">emoji_emotions</i>
+                本予約
+            </span> <div class="v-avatar v-list-item__avatar" style="width: 3.8em;"><span class="IconTextContainer is-even h-circle-l secondary"><span class="IconTextContainer_text">
+                        予約
+                        <span class="h-hiddenAccessible">1</span></span> <span aria-hidden="true" class="IconTextContainer_text is-large">
+                        1
+                    </span></span></div> <div class="v-list-item__content"><div class="v-list-item__title title font-weight-bold mb-2 d-flex flex-wrap"><a href="/sapporo/ReservationRequests/Details/011002/20250055027692/1" class="h-ctDeep"><span class="h-hiddenAccessible">受付番号：</span> <span title="[20250055]027692-1" class="DisplayCode is-emphasized"><span class="h-brackets DisplayCode_first">20250055</span>027692-1 </span></a></div> <div class="v-list-item__subtitle"><span class="font-weight-bold">
+                        カーリングシート
+Ｃシート                    </span> <span class="d-inline-block"><time datetime="2025-11-27T00:00:00.0000000"> 2025/11/27(木) </time> <span class="InputContainer InputRange is-time d-inline-block"> 16:00-17:00 <!----></span></span></div></div></div></div> <div class="my-5">
+    この受付番号は<strong class="error--text">施設利用後まで大切に保管</strong>してください。申込の<strong>お問い合わせ時に必要</strong>になります。
+</div> <!----> <h2 class="Heading2 mt-5">
+        利用料
+    </h2> <div class="section warning"><div class="layout headline h-flex-fb-wrap text--primary pr-3"><div class="flex"><strong>合計利用料</strong></div> <div class="flex text-right"><strong><span class="InputContainer d-inline-block display-2 font-weight-bold"> 1,700 円 <input type="hidden" value="1700"></span></strong></div></div></div> <h2 class="Heading2 mt-5">
+    次に…
+</h2> <div class="section info"><button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large warning" aria-controls="favoriteDialog"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light success--text">star</i>
+            お気に入りに追加
+        <i aria-hidden="true" title="ダイアログを表示します" class="v-icon notranslate material-icons ml-1 h-openDialog">open_in_browser</i></span></button> <p>
+            「施設の空き状況」ページをお気に入り登録します。 ホームやメニューからすぐに確認できるようになります。「絞り込み」で設定した条件も一緒に保存されます。
+        </p></div> <div class="row section"><div class="col-md-6 col-12"><a href="/sapporo/ReservationRequests/PrintUseScheduleSlip/011002/20250055027692" class="d-flex h-wMax30 justify-start v-btn v-btn--outlined theme--light elevation-2 v-size--large primary--text" aria-describedby="help-print-request-contents"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">print</i>
+                申込内容を印刷
+                <span class="Label is-xSmall primary ml-3">PDF</span></span></a> <p id="help-print-request-contents">
+                予約申込内容をまとめてPDF出力します。
+            </p></div> <div class="col-md-6 col-12"><a href="/sapporo/RequestStatuses/Index" class="d-flex h-wMax30 justify-start v-btn v-btn--outlined theme--light elevation-2 v-size--large primary--text" aria-describedby="help-confirm-request-statuses"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">access_time</i>
+            申込状況を確認
+        </span></a> <p id="help-confirm-request-statuses">
+            申込状況ページに移動します。
+        </p></div> <div class="col-md-6 col-12"><a href="https://yoyaku.harp.lg.jp/sapporo/FacilityAvailability/Index/011002/0055?ptn=2&amp;d=2025-11-27&amp;sd=2025-11-27&amp;ed=2025-11-27" class="d-flex h-wMax30 justify-start v-btn v-btn--outlined theme--light elevation-2 v-size--large primary--text" aria-describedby="help-continue-requests"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">calendar_today</i>
+            続けて申込
+        </span></a> <p id="help-continue-requests">
+            同じ施設に続けて申込をします。 ※施設の空き状況に遷移します。
+        </p></div></div> <div class="text-center py-10 mb-6"><a href="/sapporo" class="GoToRoot title font-weight-bold"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">undo</i>ホームにもどる
+    </a></div> <div role="presentation" aria-hidden="true" class="v-dialog__container"></div> <div class="mt-12"><a href="https://yoyaku.harp.lg.jp/sapporo/FacilityAvailability/Index/011002/0055?ptn=2&amp;d=2025-11-27&amp;sd=2025-11-27&amp;ed=2025-11-27" class="GoToRoot"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">undo</i>施設の空き状況[どうぎんカーリングスタジアム]にもどる
+        </a></div></div> <div id="fixedCotnentsWrapper" class="main container is-fixedContentsWrapper"></div> <button type="button" class="GoToUpBtn SideFloatBtn v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark v-size--default" style="display: none;"><span class="v-btn__content"><div class="layout SideFloatBtn_text align-center column justify-center"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">keyboard_arrow_up</i> 上へ </div></span></button></main> <footer class="Footer"><nav aria-label="footer navigation"><ul class="NavLink"><li><a href="/sapporo/public/help.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">ヘルプ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/Sitemap" class="NavLink_link">サイトマップ</a></li> <li><a href="/sapporo/public/terms.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">規約と方針<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/public/contact.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">お問い合わせ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/public/tokushoho.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">特定商取引法に基づく表示<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li></ul> <ul class="NavLink is-inline"><li><a href="/sapporo" class="NavLink_link">ホーム</a></li> <li><a href="/sapporo/FacilitySearch/Index" class="NavLink_link">施設一覧・検索</a></li> <li><a href="/sapporo/Notices/Index" class="NavLink_link">お知らせ</a></li></ul></nav> <div class="Footer_copyright">© 札幌市公共施設予約情報システム</div></footer> <div class="SnackbarCreator h-fixedContent" style="bottom: 0px;"><div role="alert" class="h-hiddenAccessible"></div><div role="alert" class="h-hiddenAccessible"></div><div class="SnackbarCreator_container"><!----></div></div> <div role="alert" class="LoadingOverlay h-fixedContent is-full" style="top: 60px;"><!----></div> <span role="presentation"></span></div></div><div role="alertdialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-labelledby="help-default-3-header" style="z-index: 0;"><div id="help-default-3" class="v-dialog HelpBtn_content h-radius" style="transform-origin: center center; max-width: calc(100% - 2.5rem); width: 25rem; display: none;"><div class="DialogIcon"><svg aria-hidden="true" class="SvgIcon v-icon notranslate material-icons primary--text white--stroke is-large"><text x=".1em" y="1em" paint-order="stroke" stroke-width=".2em"> help</text></svg></div><div class="HelpBtn_content_body white v-sheet pa-8 h-radius"><h2 id="help-default-3-header" class="headline mb-2"><span>ヘルプ - 予約申込</span></h2><div tabindex="-1"></div><!----><div class="text-center mt-2"><button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default h-base"><span class="v-btn__content"> 閉じる </span></button></div></div></div></div><div role="dialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-label="お気に入りに追加" style="z-index: 0;"><div id="favoriteDialog" class="v-dialog DialogBox" style="transform-origin: center center; width: 100%; display: none;"><div role="alert" class="LoadingOverlay h-fixedContent is-absolute" style="top: 60px;"><!----></div><!----></div></div><div role="dialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-label="表示設定" style="z-index: 0;"><div id="globalConfigDialog" class="v-dialog DialogBox  DisplayConfigDialog_content" style="transform-origin: center center; width: 30em; display: none;"><div role="alert" class="LoadingOverlay h-fixedContent is-absolute" style="top: 60px;"><!----></div><!----></div></div></div>
+    </div>
+    
+
+
+    <script src="/sapporo/js/main.js?v=RGtDSWh_USMj6C7WmG-SNVHxbZXwwENSX4Bs2RNLLcM"></script>
+
+<script src="/sapporo/js/app.js?v=v2a0r5pIrbjM21hKeoezw1c5u4mboa-tjWR0Vu_ZVYg"></script>
+
+    <script type="text/javascript">
+        new App.Vue({
+            mixins: [App.StoragesMixin],
+
+            created: function () {
+                var storages = this.storages;
+
+                storages.setPrefixKey("sapporo")
+
+                var loggedin = true;
+                var prevLoggedin = storages.get("loggedin");
+
+                storages.set("loggedin", loggedin);
+
+                if (prevLoggedin && !loggedin) {
+                    storages.remove('availability-selections:', { all: true });
+                }
+            }
+        })
+    </script>
+    
+
+    <script>
+        new App.Vue({
+            mixins: [App.RootMixin, App.HistoryStateMixin, App.RuleMixin, App.InputMixin, App.StoragesMixin],
+            el: '#app',
+            data: {
+                storeKey: 'reservation-request-complete',
+                storeKeyFavorite: 'favorite',
+                favoriteDialog: false,
+                favoriteName: null,
+            },
+            created: function() {
+                const self = this;
+                this.store.$on(this.storeKeyFavorite + '-submit:success', function () {
+                    self.favoriteDialog = false;
+                    self.addGlobalSnackbar({
+                        message: 'お気に入りに追加しました。',
+                        mode: 'info'
+                    });
+                });
+                this.storages.remove('availability-selections:' + '0055');
+            },
+            methods: {
+                facilityAvailabilityUrl() {
+                    var historyUrl = 'https://yoyaku.harp.lg.jp/sapporo/FacilityAvailability/Index/011002/0055?ptn=2\u0026d=2025-11-27\u0026sd=2025-11-27\u0026ed=2025-11-27';
+                    if (historyUrl) return historyUrl;
+
+                    let query = {
+                        'ptn': 1,
+                    };
+                    return '/sapporo/FacilityAvailability/Index/011002/0055' + '?' + this.stringifyParams(_.omitBy(query, _.isNil));
+                },
+                openFavoriteDialog: function () {
+                    this.errorMessage = [];
+                    this.favoriteName = 'どうぎんカーリングスタジアムの空き状況';
+                    this.favoriteDialog = true;
+                }
+            }
+        })
+    </script>
+
+
+
+</body></html>

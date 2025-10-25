@@ -1,0 +1,118 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>施設の空き状況[どうぎんカーリングスタジアム] ｜ 札幌市公共施設予約情報システム</title>
+    <meta name="description" content="札幌市公共施設予約情報システム インターネット等を通じ、各種施設の情報が一元的に閲覧でき、施設の案内から予約までを簡単に行えるサービスです。">
+    <meta name="keywords" content="札幌市公共施設予約情報システム,施設検索,予約申込">
+    <link rel="icon" href="/sapporo/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sapporo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/sapporo/android-touch-icon.png" sizes="192x192">
+
+    
+    
+        <link rel="stylesheet" href="/sapporo/css/style.css?v=_U0TM22D3CHeWw7noisI93bJCHbWj29y25Lp6pMbJIs">
+    
+<style type="text/css">html{font-size: 15px;}.SideNav,.v-app-bar,.Breadcrumbs,#main,#fixedCotnentsWrapper > .FixedBtnContainer,.h-fixedContent,.v-dialog,.GoToBack.v-btn,.LoadingOverlay,.v-btn--fixed,.Footer,#dialogArea .v-select--is-menu-active,.v-menu__content,.HeaderTitleWrapper,.v-application:before{filter: brightness(100%) contrast(100%);}</style><style id="patched-viewport">@-webkit-keyframes error-ripple { 
+  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@keyframes error-ripple { 
+  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@-webkit-keyframes focus-ripple { 
+  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+@keyframes focus-ripple { 
+  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
+  100% { box-shadow: transparent 0px 0px 0px 818px; }
+}
+
+.v-snack:not(.v-snack--absolute) {
+height: 928px;
+}
+
+.v-application--wrap {
+min-height: 928px;
+}
+
+.v-application > .v-content {
+min-height: 928px;
+}
+
+.Combobox_StyledContent.v-menu__content {
+max-height: 742.4000000000001px;
+}
+
+.ConfirmDialog_body {
+max-height: calc(-5rem + 928px);
+}
+
+.ListTable.ListTable .ListTable_selectedList .v-table__overflow {
+max-height: 371.20000000000005px;
+}
+
+.SelectedList .v-table__overflow {
+max-height: 371.20000000000005px;
+}
+
+.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_head_inner {
+max-width: 1636px;
+}
+
+.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_rowTitle {
+max-width: 572.5999999999999px;
+}
+
+.AvailabilityFrames.is-fixed .AvailabilityFrames_gridTable_thead_rowTitle::after, .AvailabilityFrames.is-fixed .AvailabilityFrames_timeHeader_hourInner::after {
+height: 464px;
+}
+
+.BottomSheet.v-dialog .BottomSheet_list {
+max-height: 464px;
+}
+
+@media screen and (max-width: 959px) {
+.DialogBox {
+max-width: calc(-2rem + 1636px);
+}
+}
+
+.is-fontsizeBig .DialogBox {
+max-width: calc(-30px + 1636px);
+}
+
+.HelpBtn_content_body {
+max-height: calc(-3.2rem + 928px);
+}
+
+.HelpBtn_content_tabItem .v-window-item {
+max-height: calc(-18rem + 881.5999999999999px);
+}
+
+@media screen and (max-width: 599px) {
+.HelpBtn_content_tabItem .v-window-item {
+min-height: calc(-18rem + 881.5999999999999px);
+}
+}
+
+.SideNav {
+max-height: calc(-4rem + 928px) !important;
+}
+
+@media screen and (max-width: 959px) {
+.SideNav {
+max-height: 928px !important;
+}
+}
+
+@media screen and (max-width: 599px) {
+.SideNav {
+width: 928px !important;
+}
+}</style></head>
