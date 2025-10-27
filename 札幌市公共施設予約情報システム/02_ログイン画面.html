@@ -1,4 +1,6 @@
-<html lang="ja"><head>
+<html lang="ja">
+
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
@@ -9,139 +11,567 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/sapporo/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/sapporo/android-touch-icon.png" sizes="192x192">
 
-    
-    
-        <link rel="stylesheet" href="/sapporo/css/style.css?v=_U0TM22D3CHeWw7noisI93bJCHbWj29y25Lp6pMbJIs">
-    
-<style type="text/css">html{font-size: 15px;}.SideNav,.v-app-bar,.Breadcrumbs,#main,#fixedCotnentsWrapper > .FixedBtnContainer,.h-fixedContent,.v-dialog,.GoToBack.v-btn,.LoadingOverlay,.v-btn--fixed,.Footer,#dialogArea .v-select--is-menu-active,.v-menu__content,.HeaderTitleWrapper,.v-application:before{filter: brightness(100%) contrast(100%);}</style><style id="patched-viewport">@-webkit-keyframes error-ripple { 
-  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
-  100% { box-shadow: transparent 0px 0px 0px 818px; }
-}
 
-@keyframes error-ripple { 
-  0% { box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px; }
-  100% { box-shadow: transparent 0px 0px 0px 818px; }
-}
 
-@-webkit-keyframes focus-ripple { 
-  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
-  100% { box-shadow: transparent 0px 0px 0px 818px; }
-}
+    <link rel="stylesheet" href="/sapporo/css/style.css?v=_U0TM22D3CHeWw7noisI93bJCHbWj29y25Lp6pMbJIs">
 
-@keyframes focus-ripple { 
-  0% { box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px; }
-  100% { box-shadow: transparent 0px 0px 0px 818px; }
-}
+    <style type="text/css">
+        html {
+            font-size: 15px;
+        }
 
-.v-snack:not(.v-snack--absolute) {
-height: 928px;
-}
+        .SideNav,
+        .v-app-bar,
+        .Breadcrumbs,
+        #main,
+        #fixedCotnentsWrapper>.FixedBtnContainer,
+        .h-fixedContent,
+        .v-dialog,
+        .GoToBack.v-btn,
+        .LoadingOverlay,
+        .v-btn--fixed,
+        .Footer,
+        #dialogArea .v-select--is-menu-active,
+        .v-menu__content,
+        .HeaderTitleWrapper,
+        .v-application:before {
+            filter: brightness(100%) contrast(100%);
+        }
+    </style>
+    <style id="patched-viewport">
+        @-webkit-keyframes error-ripple {
+            0% {
+                box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px;
+            }
 
-.v-application--wrap {
-min-height: 928px;
-}
+            100% {
+                box-shadow: transparent 0px 0px 0px 818px;
+            }
+        }
 
-.v-application > .v-content {
-min-height: 928px;
-}
+        @keyframes error-ripple {
+            0% {
+                box-shadow: rgba(188, 38, 62, 0.5) 0px 0px 0px 0px;
+            }
 
-.Combobox_StyledContent.v-menu__content {
-max-height: 742.4000000000001px;
-}
+            100% {
+                box-shadow: transparent 0px 0px 0px 818px;
+            }
+        }
 
-.ConfirmDialog_body {
-max-height: calc(-5rem + 928px);
-}
+        @-webkit-keyframes focus-ripple {
+            0% {
+                box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px;
+            }
 
-.ListTable.ListTable .ListTable_selectedList .v-table__overflow {
-max-height: 371.20000000000005px;
-}
+            100% {
+                box-shadow: transparent 0px 0px 0px 818px;
+            }
+        }
 
-.SelectedList .v-table__overflow {
-max-height: 371.20000000000005px;
-}
+        @keyframes focus-ripple {
+            0% {
+                box-shadow: rgba(67, 97, 125, 0.5) 0px 0px 0px 0px;
+            }
 
-.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_head_inner {
-max-width: 1636px;
-}
+            100% {
+                box-shadow: transparent 0px 0px 0px 818px;
+            }
+        }
 
-.AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_rowTitle {
-max-width: 572.5999999999999px;
-}
+        .v-snack:not(.v-snack--absolute) {
+            height: 928px;
+        }
 
-.AvailabilityFrames.is-fixed .AvailabilityFrames_gridTable_thead_rowTitle::after, .AvailabilityFrames.is-fixed .AvailabilityFrames_timeHeader_hourInner::after {
-height: 464px;
-}
+        .v-application--wrap {
+            min-height: 928px;
+        }
 
-.BottomSheet.v-dialog .BottomSheet_list {
-max-height: 464px;
-}
+        .v-application>.v-content {
+            min-height: 928px;
+        }
 
-@media screen and (max-width: 959px) {
-.DialogBox {
-max-width: calc(-2rem + 1636px);
-}
-}
+        .Combobox_StyledContent.v-menu__content {
+            max-height: 742.4000000000001px;
+        }
 
-.is-fontsizeBig .DialogBox {
-max-width: calc(-30px + 1636px);
-}
+        .ConfirmDialog_body {
+            max-height: calc(-5rem + 928px);
+        }
 
-.HelpBtn_content_body {
-max-height: calc(-3.2rem + 928px);
-}
+        .ListTable.ListTable .ListTable_selectedList .v-table__overflow {
+            max-height: 371.20000000000005px;
+        }
 
-.HelpBtn_content_tabItem .v-window-item {
-max-height: calc(-18rem + 881.5999999999999px);
-}
+        .SelectedList .v-table__overflow {
+            max-height: 371.20000000000005px;
+        }
 
-@media screen and (max-width: 599px) {
-.HelpBtn_content_tabItem .v-window-item {
-min-height: calc(-18rem + 881.5999999999999px);
-}
-}
+        .AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_head_inner {
+            max-width: 1636px;
+        }
 
-.SideNav {
-max-height: calc(-4rem + 928px) !important;
-}
+        .AvailabilityFrames_gridTable .AvailabilityFrames_gridTable_tbody_rowTitle {
+            max-width: 572.5999999999999px;
+        }
 
-@media screen and (max-width: 959px) {
-.SideNav {
-max-height: 928px !important;
-}
-}
+        .AvailabilityFrames.is-fixed .AvailabilityFrames_gridTable_thead_rowTitle::after,
+        .AvailabilityFrames.is-fixed .AvailabilityFrames_timeHeader_hourInner::after {
+            height: 464px;
+        }
 
-@media screen and (max-width: 599px) {
-.SideNav {
-width: 928px !important;
-}
-}</style></head>
+        .BottomSheet.v-dialog .BottomSheet_list {
+            max-height: 464px;
+        }
+
+        @media screen and (max-width: 959px) {
+            .DialogBox {
+                max-width: calc(-2rem + 1636px);
+            }
+        }
+
+        .is-fontsizeBig .DialogBox {
+            max-width: calc(-30px + 1636px);
+        }
+
+        .HelpBtn_content_body {
+            max-height: calc(-3.2rem + 928px);
+        }
+
+        .HelpBtn_content_tabItem .v-window-item {
+            max-height: calc(-18rem + 881.5999999999999px);
+        }
+
+        @media screen and (max-width: 599px) {
+            .HelpBtn_content_tabItem .v-window-item {
+                min-height: calc(-18rem + 881.5999999999999px);
+            }
+        }
+
+        .SideNav {
+            max-height: calc(-4rem + 928px) !important;
+        }
+
+        @media screen and (max-width: 959px) {
+            .SideNav {
+                max-height: 928px !important;
+            }
+        }
+
+        @media screen and (max-width: 599px) {
+            .SideNav {
+                width: 928px !important;
+            }
+        }
+    </style>
+</head>
+
 <body>
     <div id="container" tabindex="-1">
-        <div id="app" data-app="true" class="theme--light v-application v-application--is-ltr"><div id="dialogArea"><div></div></div> <div class="GlobalNavs"><div class="GlobalNavs_title HeaderTitleWrapper is-straight d-md-none"><div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム" class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img" src="/sapporo/assets/images/title_other_sapporo.svg?v=ndyjqPcBVpc3lfmKYqR6OKBF9QSQlgu_6Q36lUoNlwY" alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div></div><header class="Header v-sheet theme--light v-toolbar v-app-bar v-app-bar--clipped v-app-bar--fixed" data-booted="true" style="margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"><div class="v-toolbar__content"><div class="Header_title HeaderTitleWrapper is-dark"><div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム" class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img" src="/sapporo/assets/images/title_menu_sapporo.svg?v=q_Y8xTiWjWBvpQWSJUFgBbM3ZleXBRj9KwjZv_mQeNI" alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div></div><div class="v-toolbar__items Header_toolbarWrapper mr-3"><a href="#mainWrapper" class="h-showAtForcus v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">arrow_downward</i> <span class="IconTextContainer_text">
-                                本文へ移動
-                            </span></span></span></a><!----><button type="button" class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default secondary" aria-controls="global-navs-1-drawer" aria-expanded="true"><span class="v-btn__content"><span class="IconTextContainer"><div><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">close</i><!----></div><span class="IconTextContainer_text">メニュー <span class="h-hiddenAccessible"> 閉じる</span></span></span></span></button></div><div class="SideNav v-navigation-drawer v-navigation-drawer--clipped v-navigation-drawer--fixed v-navigation-drawer--open theme--light" id="global-navs-1-drawer" tabindex="-1" data-booted="true" style="height: 100vh; transform: translateX(0%); width: 20rem;"><div class="v-navigation-drawer__content"><nav aria-label="メニュー" class="SideNav_content"><div class="SideNav_header"><div class="SideNav_header_icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">menu</i><!----></div> メニュー <div class="spacer"></div><button type="button" class="SideNav_closeBtn is-top transparent v-btn v-btn--outlined theme--light v-size--large white--text" style="display: none;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">close</i> 閉じる </span></button></div><div role="list" class="v-list SideNav_menu is-main v-sheet theme--light"><a tabindex="0" href="/sapporo" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">home</i></div> <div class="v-list-item__content"><div class="v-list-item__title">ホーム</div></div></a> <a tabindex="0" href="/sapporo/FacilitySearch/Index" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">domain</i></div> <div class="v-list-item__content"><div class="v-list-item__title">施設一覧・検索</div></div></a> <a tabindex="0" href="/sapporo/Notices/Index" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">info</i></div> <div class="v-list-item__content"><div class="v-list-item__title">お知らせ</div></div></a> <div class="SideNav_pocket h-deep py-5"><div class="px-3"><a href="/sapporo/Login" class="d-flex v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light success--text">lock_open</i>
-                            ログイン
-                        </span></a></div></div></div> <div role="list" class="v-list SideNav_menu is-sub v-sheet theme--light"><a tabindex="0" href="/sapporo/public/help.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">help</i></div> <div class="v-list-item__content"><div class="v-list-item__title">ヘルプ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/Sitemap" role="listitem" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">map</i></div> <div class="v-list-item__content"><div class="v-list-item__title">サイトマップ</div></div></a> <a tabindex="0" href="/sapporo/public/terms.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">subject</i></div> <div class="v-list-item__content"><div class="v-list-item__title">規約と方針<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/public/contact.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">phone</i></div> <div class="v-list-item__content"><div class="v-list-item__title">お問い合わせ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a> <a tabindex="0" href="/sapporo/public/tokushoho.html" role="listitem" class="v-list-item v-list-item--link theme--light" target="_blank" rel="noopener noreferrer"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">format_list_bulleted</i></div> <div class="v-list-item__content"><div class="v-list-item__title">特定商取引法に基づく表示<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div></div><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></div><div class="text-center"><button type="button" class="SideNav_closeBtn is-bottom transparent v-btn v-btn--outlined theme--light v-size--large white--text h-showAtForcus"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">close</i> 閉じる </span></button></div></nav></div><div class="v-navigation-drawer__border"></div></div><a href="/sapporo/Login" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light success--text">lock_open</i>
-            ログインする
-        </span></a><div class="spacer"></div><hr role="presentation" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light"><button type="button" class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default" aria-controls="globalConfigDialog"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">font_adjuster</i> <span class="IconTextContainer_text">
-                                表示設定
-                            </span></span></span></button><div role="presentation" aria-hidden="true" class="v-dialog__container" title="表示設定"></div></div></header></div> <div class="v-main v-content" data-booted="true" style="padding: 0px 0px 0px 300px;"><div class="v-main__wrap v-content__wrap"><main role="main" id="mainWrapper" tabindex="-1" class="container container--fluid main_wrapper"><div id="main" class="main container grid-list-md
+        <div id="app" data-app="true" class="theme--light v-application v-application--is-ltr">
+            <div id="dialogArea">
+                <div></div>
+            </div>
+            <div class="GlobalNavs">
+                <div class="GlobalNavs_title HeaderTitleWrapper is-straight d-md-none">
+                    <div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム"
+                            class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img"
+                                    src="/sapporo/assets/images/title_other_sapporo.svg?v=ndyjqPcBVpc3lfmKYqR6OKBF9QSQlgu_6Q36lUoNlwY"
+                                    alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div>
+                </div>
+                <header class="Header v-sheet theme--light v-toolbar v-app-bar v-app-bar--clipped v-app-bar--fixed"
+                    data-booted="true" style="margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;">
+                    <div class="v-toolbar__content">
+                        <div class="Header_title HeaderTitleWrapper is-dark">
+                            <div class="HeaderTitle"><a href="/sapporo" aria-label="札幌市公共施設予約情報システム"
+                                    class="d-flex h-noDecoration"><span class="HeaderTitle_imgWrapper"><img role="img"
+                                            src="/sapporo/assets/images/title_menu_sapporo.svg?v=q_Y8xTiWjWBvpQWSJUFgBbM3ZleXBRj9KwjZv_mQeNI"
+                                            alt="札幌市公共施設予約情報システム" class="HeaderTitle_img"></span></a></div>
+                        </div>
+                        <div class="v-toolbar__items Header_toolbarWrapper mr-3"><a href="#mainWrapper"
+                                class="h-showAtForcus v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default"><span
+                                    class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true"
+                                            class="v-icon notranslate material-icons theme--light">arrow_downward</i>
+                                        <span class="IconTextContainer_text">
+                                            本文へ移動
+                                        </span></span></span></a><!----><button type="button"
+                                class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default secondary"
+                                aria-controls="global-navs-1-drawer" aria-expanded="true"><span
+                                    class="v-btn__content"><span class="IconTextContainer">
+                                        <div><i aria-hidden="true"
+                                                class="v-icon notranslate material-icons theme--light">close</i><!---->
+                                        </div><span class="IconTextContainer_text">メニュー <span
+                                                class="h-hiddenAccessible"> 閉じる</span></span>
+                                    </span></span></button></div>
+                        <div class="SideNav v-navigation-drawer v-navigation-drawer--clipped v-navigation-drawer--fixed v-navigation-drawer--open theme--light"
+                            id="global-navs-1-drawer" tabindex="-1" data-booted="true"
+                            style="height: 100vh; transform: translateX(0%); width: 20rem;">
+                            <div class="v-navigation-drawer__content">
+                                <nav aria-label="メニュー" class="SideNav_content">
+                                    <div class="SideNav_header">
+                                        <div class="SideNav_header_icon"><i aria-hidden="true"
+                                                class="v-icon notranslate material-icons theme--light">menu</i><!---->
+                                        </div> メニュー <div class="spacer"></div><button type="button"
+                                            class="SideNav_closeBtn is-top transparent v-btn v-btn--outlined theme--light v-size--large white--text"
+                                            style="display: none;"><span class="v-btn__content"><i aria-hidden="true"
+                                                    class="v-icon notranslate v-icon--left material-icons theme--light">close</i>
+                                                閉じる </span></button>
+                                    </div>
+                                    <div role="list" class="v-list SideNav_menu is-main v-sheet theme--light"><a
+                                            tabindex="0" href="/sapporo" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">home</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">ホーム</div>
+                                            </div>
+                                        </a> <a tabindex="0" href="/sapporo/FacilitySearch/Index" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">domain</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">施設一覧・検索</div>
+                                            </div>
+                                        </a> <a tabindex="0" href="/sapporo/Notices/Index" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">info</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">お知らせ</div>
+                                            </div>
+                                        </a>
+                                        <div class="SideNav_pocket h-deep py-5">
+                                            <div class="px-3"><a href="/sapporo/Login"
+                                                    class="d-flex v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span
+                                                        class="v-btn__content"><i aria-hidden="true"
+                                                            class="v-icon notranslate v-icon--left material-icons theme--light success--text">lock_open</i>
+                                                        ログイン
+                                                    </span></a></div>
+                                        </div>
+                                    </div>
+                                    <div role="list" class="v-list SideNav_menu is-sub v-sheet theme--light"><a
+                                            tabindex="0" href="/sapporo/public/help.html" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">help</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">ヘルプ<span
+                                                        class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div>
+                                            </div><i aria-hidden="true" title="ウインドウを別のタブで表示します"
+                                                class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i>
+                                        </a> <a tabindex="0" href="/sapporo/Sitemap" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">map</i></div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">サイトマップ</div>
+                                            </div>
+                                        </a> <a tabindex="0" href="/sapporo/public/terms.html" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">subject</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">規約と方針<span
+                                                        class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div>
+                                            </div><i aria-hidden="true" title="ウインドウを別のタブで表示します"
+                                                class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i>
+                                        </a> <a tabindex="0" href="/sapporo/public/contact.html" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">phone</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">お問い合わせ<span
+                                                        class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div>
+                                            </div><i aria-hidden="true" title="ウインドウを別のタブで表示します"
+                                                class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i>
+                                        </a> <a tabindex="0" href="/sapporo/public/tokushoho.html" role="listitem"
+                                            class="v-list-item v-list-item--link theme--light" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="v-list-item__icon"><i aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">format_list_bulleted</i>
+                                            </div>
+                                            <div class="v-list-item__content">
+                                                <div class="v-list-item__title">特定商取引法に基づく表示<span
+                                                        class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span></div>
+                                            </div><i aria-hidden="true" title="ウインドウを別のタブで表示します"
+                                                class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i>
+                                        </a></div>
+                                    <div class="text-center"><button type="button"
+                                            class="SideNav_closeBtn is-bottom transparent v-btn v-btn--outlined theme--light v-size--large white--text h-showAtForcus"><span
+                                                class="v-btn__content"><i aria-hidden="true"
+                                                    class="v-icon notranslate v-icon--left material-icons theme--light">close</i>
+                                                閉じる </span></button></div>
+                                </nav>
+                            </div>
+                            <div class="v-navigation-drawer__border"></div>
+                        </div><a href="/sapporo/Login"
+                            class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span
+                                class="v-btn__content"><i aria-hidden="true"
+                                    class="v-icon notranslate v-icon--left material-icons theme--light success--text">lock_open</i>
+                                ログインする
+                            </span></a>
+                        <div class="spacer"></div>
+                        <hr role="presentation"
+                            class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light"><button
+                            type="button"
+                            class="v-btn v-btn--icon v-btn--round v-btn--tile theme--light v-size--default"
+                            aria-controls="globalConfigDialog"><span class="v-btn__content"><span
+                                    class="IconTextContainer"><i aria-hidden="true"
+                                        class="v-icon notranslate material-icons theme--light">font_adjuster</i> <span
+                                        class="IconTextContainer_text">
+                                        表示設定
+                                    </span></span></span></button>
+                        <div role="presentation" aria-hidden="true" class="v-dialog__container" title="表示設定"></div>
+                    </div>
+                </header>
+            </div>
+            <div class="v-main v-content" data-booted="true" style="padding: 0px 0px 0px 300px;">
+                <div class="v-main__wrap v-content__wrap">
+                    <main role="main" id="mainWrapper" tabindex="-1" class="container container--fluid main_wrapper">
+                        <div id="main" class="main container grid-list-md
     
- "><!----> <h1 class="Heading1"><i aria-hidden="true" class="v-icon notranslate Heading_icon material-icons theme--light">lock_open</i>ログイン<div class="spacer"></div><div role="presentation" aria-hidden="true" class="v-dialog__container d-inline"></div><a href="/sapporo/public/login.html" target="_blank" class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">help</i><span class="h-hiddenAccessible">ヘルプ - ログイン</span><span aria-hidden="true" role="presentation" class="IconTextContainer_text"> ヘルプ <i aria-hidden="true" class="v-icon notranslate material-icons theme--light">open_in_new</i></span><span class="h-hiddenAccessible">ウインドウを別のタブで表示します</span></span></span></a></h1> <div role="alert" class="v-alert my-3 v-sheet theme--light warning"><div class="v-alert__wrapper"><div class="v-alert__content">
-        ネット申込を続けるにはログインしてください。
-    </div></div></div> <!----> <form novalidate="novalidate" id="form" enctype="application" class="v-form"><input name="__RequestVerificationToken" type="hidden" value="CfDJ8OHcDkGEczVPgTVbxua4Lf57Oc88LBqo3V6cgu4RMTdrAL2cRmSninxIRs8Sj_U3oMqw_a_jrzRnsjcjzDpDZR7K0x6tHCOX9ELSLjXZBJmjav0ZXmsFN12wSR2XHvrdePn6nUi3c55S3ZvqjbmqZYY"><input type="hidden" name="sessionToken" value=""> <div class="section"><div class="DetailTable is-long-label h-wMax30 mx-auto py-2 is-form"><div class="DetailTable_list"><dl class="DetailTable_item"><dt class="DetailTable_label">利用者番号<span class="Label error--text is-small ml-1">必須</span></dt><dd class="DetailTable_data"><span class="InputContainer"><div class="v-input theme--light v-text-field v-text-field--is-booted"><div class="v-input__control"><div class="v-input__slot"><div class="v-text-field__slot"><label for="input-21" class="v-label theme--light" id="input-21-label" style="left: 0px; right: auto; position: absolute;">利用者番号</label><input name="userId" required="required" id="input-21" type="text" aria-labelledby="input-21-label input-21-messages"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper" id="input-21-messages" tabindex="-1"></div></div></div></div></div></span></dd></dl> <dl class="DetailTable_item"><dt class="DetailTable_label">パスワード<span class="Label error--text is-small ml-1">必須</span></dt><dd class="DetailTable_data"><span class="InputContainer"><div class="v-input theme--light v-text-field v-text-field--is-booted"><div class="v-input__control"><div class="v-input__slot"><div class="v-text-field__slot"><label for="input-25" class="v-label theme--light" id="input-25-label" style="left: 0px; right: auto; position: absolute;">パスワード</label><input name="password" required="required" id="input-25" type="password" aria-labelledby="input-25-label input-25-messages"></div><div class="v-input__append-inner"><button type="button" class="v-btn v-btn--icon v-btn--round theme--light v-size--default secondary--text"><span class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">visibility</i><span class="IconTextContainer_text"> 表示 </span></span></span></button><!----></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper" id="input-25-messages" tabindex="-1"></div></div></div></div></div></span></dd></dl></div></div></div></form> <div aria-owns="fixed-btn-container-3" class="h-focusable my-3" style="min-height: auto;"><h2 id="fixed-btn-container-3-heading" class="h-hiddenAccessible"> 下部操作欄 </h2><div id="fixed-btn-container-3" role="region" aria-labelledby="fixed-btn-container-3-heading" tabindex="-1" tag="div" class="FixedBtnContainer h-focusable" style="width: auto; transform: translateY(0px);"><div class="layout align-center justify-center row ma-0 py-3"><div class="d-flex flex-column center"><button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large success is-main"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">lock_open</i> ログイン </span></button></div></div><div class="text-center"><!----><!----></div></div></div> <div class="is-full-width info pa-3 pa-md-4 my-6 text-center"><h2 class="subtitle-1 font-weight-regular mb-2"><i aria-hidden="true" class="v-icon notranslate secondary--text material-icons theme--light">info</i>ネット申込には<strong>アカウント</strong>が必要です
-    </h2> <a href="/sapporo/Users/InsertAgreement" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large secondary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left material-icons theme--light">person_add</i>
-        アカウント登録
-    </span></a></div> <h2 class="Heading2 mt-5">ログインでお困りの方</h2> <div class="section"><h3 class="title h-ctLight mb-4">パスワードを忘れた</h3> <a href="/sapporo/Users/PasswordResetMailSendInput" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span class="v-btn__content">パスワード再設定へ</span></a> <p>パスワードを再設定するための手続きを行います。</p> <hr role="separator" aria-orientation="horizontal" class="my-6 is-fullInSection v-divider theme--light"> <h3 class="title h-ctLight mb-4">ログインIDを忘れた</h3> <a href="/sapporo/Users/LoginIdNotificationMailSendInput" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span class="v-btn__content">ログインID通知へ</span></a> <p>登録済みのメールアドレス宛にログインIDをお送りします。</p></div> <div class="mt-12"></div></div> <div id="fixedCotnentsWrapper" class="main container is-fixedContentsWrapper"></div> <a href="/sapporo/" class="d-none d-md-inline-flex GoToBack v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate GoToBack_icon v-icon--left material-icons theme--light secondary--text">arrow_back</i>前のページに戻る
-            </span></a> <button type="button" class="GoToUpBtn SideFloatBtn v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark v-size--default" style="display: none;"><span class="v-btn__content"><div class="layout SideFloatBtn_text align-center column justify-center"><i aria-hidden="true" class="v-icon notranslate material-icons theme--light">keyboard_arrow_up</i> 上へ </div></span></button></main> <footer class="Footer"><nav aria-label="footer navigation"><ul class="NavLink"><li><a href="/sapporo/public/help.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">ヘルプ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/Sitemap" class="NavLink_link">サイトマップ</a></li> <li><a href="/sapporo/public/terms.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">規約と方針<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/public/contact.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">お問い合わせ<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li> <li><a href="/sapporo/public/tokushoho.html" class="NavLink_link" target="_blank" rel="noopener noreferrer">特定商取引法に基づく表示<span class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true" title="ウインドウを別のタブで表示します" class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a></li></ul> <ul class="NavLink is-inline"><li><a href="/sapporo" class="NavLink_link">ホーム</a></li> <li><a href="/sapporo/FacilitySearch/Index" class="NavLink_link">施設一覧・検索</a></li> <li><a href="/sapporo/Notices/Index" class="NavLink_link">お知らせ</a></li></ul></nav> <div class="Footer_copyright">© 札幌市公共施設予約情報システム</div></footer> <div class="SnackbarCreator h-fixedContent" style="bottom: 0px;"><div role="alert" class="h-hiddenAccessible"></div><div role="alert" class="h-hiddenAccessible"></div><div class="SnackbarCreator_container"><!----></div></div> <div role="alert" class="LoadingOverlay h-fixedContent is-full" style="top: 60px;"><!----></div> <span role="presentation"></span></div></div><div role="alertdialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-labelledby="help-default-2-header" style="z-index: 0;"><div id="help-default-2" class="v-dialog HelpBtn_content h-radius" style="transform-origin: center center; max-width: calc(100% - 2.5rem); width: 25rem; display: none;"><div class="DialogIcon"><svg aria-hidden="true" class="SvgIcon v-icon notranslate material-icons primary--text white--stroke is-large"><text x=".1em" y="1em" paint-order="stroke" stroke-width=".2em"> help</text></svg></div><div class="HelpBtn_content_body white v-sheet pa-8 h-radius"><h2 id="help-default-2-header" class="headline mb-2"><span>ヘルプ - ログイン</span></h2><div tabindex="-1"></div><!----><div class="text-center mt-2"><button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default h-base"><span class="v-btn__content"> 閉じる </span></button></div></div></div></div><div role="dialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-label="表示設定" style="z-index: 0;"><div id="globalConfigDialog" class="v-dialog DialogBox  DisplayConfigDialog_content" style="transform-origin: center center; width: 30em; display: none;"><div role="alert" class="LoadingOverlay h-fixedContent is-absolute" style="top: 60px;"><!----></div><!----></div></div></div>
+ "><!---->
+                            <h1 class="Heading1"><i aria-hidden="true"
+                                    class="v-icon notranslate Heading_icon material-icons theme--light">lock_open</i>ログイン
+                                <div class="spacer"></div>
+                                <div role="presentation" aria-hidden="true" class="v-dialog__container d-inline"></div>
+                                <a href="/sapporo/public/login.html" target="_blank"
+                                    class="v-btn v-btn--icon v-btn--round theme--light v-size--default primary--text"><span
+                                        class="v-btn__content"><span class="IconTextContainer"><i aria-hidden="true"
+                                                class="v-icon notranslate material-icons theme--light">help</i><span
+                                                class="h-hiddenAccessible">ヘルプ - ログイン</span><span aria-hidden="true"
+                                                role="presentation" class="IconTextContainer_text"> ヘルプ <i
+                                                    aria-hidden="true"
+                                                    class="v-icon notranslate material-icons theme--light">open_in_new</i></span><span
+                                                class="h-hiddenAccessible">ウインドウを別のタブで表示します</span></span></span></a>
+                            </h1>
+                            <div role="alert" class="v-alert my-3 v-sheet theme--light warning">
+                                <div class="v-alert__wrapper">
+                                    <div class="v-alert__content">
+                                        ネット申込を続けるにはログインしてください。
+                                    </div>
+                                </div>
+                            </div> <!---->
+                            <form novalidate="novalidate" id="form" enctype="application" class="v-form"><input
+                                    name="__RequestVerificationToken" type="hidden"
+                                    value="CfDJ8OHcDkGEczVPgTVbxua4Lf57Oc88LBqo3V6cgu4RMTdrAL2cRmSninxIRs8Sj_U3oMqw_a_jrzRnsjcjzDpDZR7K0x6tHCOX9ELSLjXZBJmjav0ZXmsFN12wSR2XHvrdePn6nUi3c55S3ZvqjbmqZYY"><input
+                                    type="hidden" name="sessionToken" value="">
+                                <div class="section">
+                                    <div class="DetailTable is-long-label h-wMax30 mx-auto py-2 is-form">
+                                        <div class="DetailTable_list">
+                                            <dl class="DetailTable_item">
+                                                <dt class="DetailTable_label">利用者番号<span
+                                                        class="Label error--text is-small ml-1">必須</span></dt>
+                                                <dd class="DetailTable_data"><span class="InputContainer">
+                                                        <div
+                                                            class="v-input theme--light v-text-field v-text-field--is-booted">
+                                                            <div class="v-input__control">
+                                                                <div class="v-input__slot">
+                                                                    <div class="v-text-field__slot"><label
+                                                                            for="input-21" class="v-label theme--light"
+                                                                            id="input-21-label"
+                                                                            style="left: 0px; right: auto; position: absolute;">利用者番号</label><input
+                                                                            name="userId" required="required"
+                                                                            id="input-21" type="text"
+                                                                            aria-labelledby="input-21-label input-21-messages">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="v-text-field__details">
+                                                                    <div class="v-messages theme--light">
+                                                                        <div class="v-messages__wrapper"
+                                                                            id="input-21-messages" tabindex="-1"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </span></dd>
+                                            </dl>
+                                            <dl class="DetailTable_item">
+                                                <dt class="DetailTable_label">パスワード<span
+                                                        class="Label error--text is-small ml-1">必須</span></dt>
+                                                <dd class="DetailTable_data"><span class="InputContainer">
+                                                        <div
+                                                            class="v-input theme--light v-text-field v-text-field--is-booted">
+                                                            <div class="v-input__control">
+                                                                <div class="v-input__slot">
+                                                                    <div class="v-text-field__slot"><label
+                                                                            for="input-25" class="v-label theme--light"
+                                                                            id="input-25-label"
+                                                                            style="left: 0px; right: auto; position: absolute;">パスワード</label><input
+                                                                            name="password" required="required"
+                                                                            id="input-25" type="password"
+                                                                            aria-labelledby="input-25-label input-25-messages">
+                                                                    </div>
+                                                                    <div class="v-input__append-inner"><button
+                                                                            type="button"
+                                                                            class="v-btn v-btn--icon v-btn--round theme--light v-size--default secondary--text"><span
+                                                                                class="v-btn__content"><span
+                                                                                    class="IconTextContainer"><i
+                                                                                        aria-hidden="true"
+                                                                                        class="v-icon notranslate material-icons theme--light">visibility</i><span
+                                                                                        class="IconTextContainer_text">
+                                                                                        表示
+                                                                                    </span></span></span></button><!---->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="v-text-field__details">
+                                                                    <div class="v-messages theme--light">
+                                                                        <div class="v-messages__wrapper"
+                                                                            id="input-25-messages" tabindex="-1"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </span></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div aria-owns="fixed-btn-container-3" class="h-focusable my-3" style="min-height: auto;">
+                                <h2 id="fixed-btn-container-3-heading" class="h-hiddenAccessible"> 下部操作欄 </h2>
+                                <div id="fixed-btn-container-3" role="region"
+                                    aria-labelledby="fixed-btn-container-3-heading" tabindex="-1" tag="div"
+                                    class="FixedBtnContainer h-focusable"
+                                    style="width: auto; transform: translateY(0px);">
+                                    <div class="layout align-center justify-center row ma-0 py-3">
+                                        <div class="d-flex flex-column center"><button type="button"
+                                                class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large success is-main"><span
+                                                    class="v-btn__content"><i aria-hidden="true"
+                                                        class="v-icon notranslate v-icon--left material-icons theme--light">lock_open</i>
+                                                    ログイン </span></button></div>
+                                    </div>
+                                    <div class="text-center"><!----><!----></div>
+                                </div>
+                            </div>
+                            <div class="is-full-width info pa-3 pa-md-4 my-6 text-center">
+                                <h2 class="subtitle-1 font-weight-regular mb-2"><i aria-hidden="true"
+                                        class="v-icon notranslate secondary--text material-icons theme--light">info</i>ネット申込には<strong>アカウント</strong>が必要です
+                                </h2> <a href="/sapporo/Users/InsertAgreement"
+                                    class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--x-large secondary"><span
+                                        class="v-btn__content"><i aria-hidden="true"
+                                            class="v-icon notranslate v-icon--left material-icons theme--light">person_add</i>
+                                        アカウント登録
+                                    </span></a>
+                            </div>
+                            <h2 class="Heading2 mt-5">ログインでお困りの方</h2>
+                            <div class="section">
+                                <h3 class="title h-ctLight mb-4">パスワードを忘れた</h3> <a
+                                    href="/sapporo/Users/PasswordResetMailSendInput"
+                                    class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span
+                                        class="v-btn__content">パスワード再設定へ</span></a>
+                                <p>パスワードを再設定するための手続きを行います。</p>
+                                <hr role="separator" aria-orientation="horizontal"
+                                    class="my-6 is-fullInSection v-divider theme--light">
+                                <h3 class="title h-ctLight mb-4">ログインIDを忘れた</h3> <a
+                                    href="/sapporo/Users/LoginIdNotificationMailSendInput"
+                                    class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span
+                                        class="v-btn__content">ログインID通知へ</span></a>
+                                <p>登録済みのメールアドレス宛にログインIDをお送りします。</p>
+                            </div>
+                            <div class="mt-12"></div>
+                        </div>
+                        <div id="fixedCotnentsWrapper" class="main container is-fixedContentsWrapper"></div> <a
+                            href="/sapporo/"
+                            class="d-none d-md-inline-flex GoToBack v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"><span
+                                class="v-btn__content"><i aria-hidden="true"
+                                    class="v-icon notranslate GoToBack_icon v-icon--left material-icons theme--light secondary--text">arrow_back</i>前のページに戻る
+                            </span></a> <button type="button"
+                            class="GoToUpBtn SideFloatBtn v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark v-size--default"
+                            style="display: none;"><span class="v-btn__content">
+                                <div class="layout SideFloatBtn_text align-center column justify-center"><i
+                                        aria-hidden="true"
+                                        class="v-icon notranslate material-icons theme--light">keyboard_arrow_up</i> 上へ
+                                </div>
+                            </span></button>
+                    </main>
+                    <footer class="Footer">
+                        <nav aria-label="footer navigation">
+                            <ul class="NavLink">
+                                <li><a href="/sapporo/public/help.html" class="NavLink_link" target="_blank"
+                                        rel="noopener noreferrer">ヘルプ<span
+                                            class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true"
+                                            title="ウインドウを別のタブで表示します"
+                                            class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a>
+                                </li>
+                                <li><a href="/sapporo/Sitemap" class="NavLink_link">サイトマップ</a></li>
+                                <li><a href="/sapporo/public/terms.html" class="NavLink_link" target="_blank"
+                                        rel="noopener noreferrer">規約と方針<span
+                                            class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true"
+                                            title="ウインドウを別のタブで表示します"
+                                            class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a>
+                                </li>
+                                <li><a href="/sapporo/public/contact.html" class="NavLink_link" target="_blank"
+                                        rel="noopener noreferrer">お問い合わせ<span
+                                            class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true"
+                                            title="ウインドウを別のタブで表示します"
+                                            class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a>
+                                </li>
+                                <li><a href="/sapporo/public/tokushoho.html" class="NavLink_link" target="_blank"
+                                        rel="noopener noreferrer">特定商取引法に基づく表示<span
+                                            class="h-hiddenAccessible">(ウインドウを別のタブで表示します)</span><i aria-hidden="true"
+                                            title="ウインドウを別のタブで表示します"
+                                            class="v-icon notranslate material-icons ml-1 h-openWindow">open_in_new</i></a>
+                                </li>
+                            </ul>
+                            <ul class="NavLink is-inline">
+                                <li><a href="/sapporo" class="NavLink_link">ホーム</a></li>
+                                <li><a href="/sapporo/FacilitySearch/Index" class="NavLink_link">施設一覧・検索</a></li>
+                                <li><a href="/sapporo/Notices/Index" class="NavLink_link">お知らせ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="Footer_copyright">© 札幌市公共施設予約情報システム</div>
+                    </footer>
+                    <div class="SnackbarCreator h-fixedContent" style="bottom: 0px;">
+                        <div role="alert" class="h-hiddenAccessible"></div>
+                        <div role="alert" class="h-hiddenAccessible"></div>
+                        <div class="SnackbarCreator_container"><!----></div>
+                    </div>
+                    <div role="alert" class="LoadingOverlay h-fixedContent is-full" style="top: 60px;"><!----></div>
+                    <span role="presentation"></span>
+                </div>
+            </div>
+            <div role="alertdialog" class="v-dialog__content" aria-modal="true" aria-hidden="true"
+                aria-labelledby="help-default-2-header" style="z-index: 0;">
+                <div id="help-default-2" class="v-dialog HelpBtn_content h-radius"
+                    style="transform-origin: center center; max-width: calc(100% - 2.5rem); width: 25rem; display: none;">
+                    <div class="DialogIcon"><svg aria-hidden="true"
+                            class="SvgIcon v-icon notranslate material-icons primary--text white--stroke is-large"><text
+                                x=".1em" y="1em" paint-order="stroke" stroke-width=".2em"> help</text></svg></div>
+                    <div class="HelpBtn_content_body white v-sheet pa-8 h-radius">
+                        <h2 id="help-default-2-header" class="headline mb-2"><span>ヘルプ - ログイン</span></h2>
+                        <div tabindex="-1"></div><!---->
+                        <div class="text-center mt-2"><button type="button"
+                                class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default h-base"><span
+                                    class="v-btn__content"> 閉じる </span></button></div>
+                    </div>
+                </div>
+            </div>
+            <div role="dialog" class="v-dialog__content" aria-modal="true" aria-hidden="true" aria-label="表示設定"
+                style="z-index: 0;">
+                <div id="globalConfigDialog" class="v-dialog DialogBox  DisplayConfigDialog_content"
+                    style="transform-origin: center center; width: 30em; display: none;">
+                    <div role="alert" class="LoadingOverlay h-fixedContent is-absolute" style="top: 60px;"><!----></div>
+                    <!---->
+                </div>
+            </div>
+        </div>
     </div>
-    
+
 
 
     <script src="/sapporo/js/main.js?v=RGtDSWh_USMj6C7WmG-SNVHxbZXwwENSX4Bs2RNLLcM"></script>
 
-<script src="/sapporo/js/app.js?v=v2a0r5pIrbjM21hKeoezw1c5u4mboa-tjWR0Vu_ZVYg"></script>
+    <script src="/sapporo/js/app.js?v=v2a0r5pIrbjM21hKeoezw1c5u4mboa-tjWR0Vu_ZVYg"></script>
 
     <script type="text/javascript">
         new App.Vue({
@@ -163,7 +593,7 @@ width: 928px !important;
             }
         })
     </script>
-    
+
 
     <script>
         new App.Vue({
@@ -171,7 +601,7 @@ width: 928px !important;
             el: '#app',
             data: {
                 storeKey: 'login-form',
-                values: Object.assign({}, {"userId":null,"password":null,"isRememberMe":false}),
+                values: Object.assign({}, { "userId": null, "password": null, "isRememberMe": false }),
             },
             created: function () {
                 const self = this;
@@ -184,4 +614,6 @@ width: 928px !important;
 
 
 
-</body></html>
+</body>
+
+</html>
