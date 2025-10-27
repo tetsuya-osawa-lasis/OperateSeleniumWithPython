@@ -25,6 +25,8 @@ aaa = _osManager.get_AAA()
 
 print(aaa)
 
+_osManager.static_function()
+
 # ↑お遊び
 
 

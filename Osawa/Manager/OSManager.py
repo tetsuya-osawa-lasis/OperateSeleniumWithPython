@@ -26,3 +26,8 @@ class OSManager:
         ret = "AAA"
 
         return ret
+
+    # スタティックメソッドは、(self)は不要らしい
+    @staticmethod
+    def static_function():
+        print("staticメソッド")
