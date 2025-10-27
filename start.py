@@ -13,6 +13,21 @@ from selenium.webdriver.common.keys import Keys
 
 ### ↑ライブラリインポート
 
+# ↓お遊び
+
+from Osawa.Manager.OSManager import OSManager
+
+_osManager = OSManager()
+
+_osManager.__init__()
+
+aaa = _osManager.get_AAA()
+
+print(aaa)
+
+# ↑お遊び
+
+
 
 # [kudo]（優先度3）このPythonが、どのOSのPCで動作しているかを取得するための管理クラスを作成し、その情報を取得するメソッドをここに追加する
 
