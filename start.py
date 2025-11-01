@@ -55,7 +55,7 @@ _msChromeDriberService = fs.Service(executable_path = _filePath_ChromeDriverExe)
 _driver: webdriver = webdriver.Chrome(service = _msChromeDriberService)
 
 
-_url: str = "https://www.google.com/"
+_url: str = "https://yoyaku.harp.lg.jp/sapporo/"
 
 _driver.get(_url)
 
