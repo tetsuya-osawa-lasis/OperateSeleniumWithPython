@@ -4,50 +4,52 @@ using System.Collections.Generic;
 using System.Linq;
 
 /// <summary>
-/// セレニウム操作を提供する管理クラス
+/// セレニウム（Selenium）操作を提供する管理クラス
 /// </summary>
 public class SeleniumManager
 {
-    // プロパティの定義はありません
+    // プロパティは設計に記載されていないため、省略します。
 
     /// <summary>
-    /// HTMLの「a」タグの中から、指定された文字列を含む最初のエレメントを取得する
+    /// HTMLの「a」タグの中から、指定された文字列を含む最初のエレメントを取得します。
     /// </summary>
-    /// <param name="driver">SeleniumのWebドライバ</param>
+    /// <param name="webDriver">SeleniumのWebドライバ</param>
     /// <param name="searchText">指定された文字列</param>
-    /// <returns>最初に見つかったエレメント、見つからなかった場合はnull</returns>
-    public IWebElement GetFirstAnchorElementByText(IWebDriver driver, string searchText)
+    /// <returns>エレメント（Seleniumのエレメント）</returns>
+    public IWebElement GetFirstAnchorElementWithText(IWebDriver webDriver, string searchText)
     {
-        // 戻り値用の変数をメソッド内の処理で定義し、デフォルト値（null）を設定する
+        // 戻り値用の変数を定義し、デフォルト値として初期化します。
         var resultElement = (IWebElement)null;
 
-        if (driver == null)
+        // 引数のnullチェックなど、堅牢性を高めるための処理を適宜追加できます。
+        if (webDriver == null)
         {
-            Console.WriteLine("WebDriver is null.");
+            Console.WriteLine("Webドライバがnullです。");
             return resultElement;
         }
 
-        if (string.IsNullOrEmpty(searchText))
+        // "" は String.Empty とします。
+        if (searchText == null)
         {
-            Console.WriteLine("Search text is null or empty.");
-            return resultElement;
+            var emptySearchText = String.Empty;
+            searchText = emptySearchText;
         }
 
         try
         {
             // HTMLに含まれる、すべての「a」タグを取得する。（LIST型）
-            // By.TagName("a") で全てのアンカータグを取得
-            var anchorElements = driver.FindElements(By.TagName("a"));
+            // var を使用して変数を定義します。
+            var anchorElements = webDriver.FindElements(By.TagName("a"));
 
             // 上記の「a」タグのリストに対して、ループ処理を行う。
             foreach (var element in anchorElements)
             {
                 // ループ処理の中で、「a」タグの配下に、引数で渡された「指定された文字列」が含まれる「a」タグを特定する。
-                // Element.Text プロパティを使用して要素内のテキストを取得し、指定された文字列と比較
+                // エレメントのテキストコンテンツが指定された文字列を含んでいるか確認します。
                 if (element.Text.Contains(searchText))
                 {
-                    // 条件に一致する最初のエレメントが見つかったら、変数に格納しループを抜ける
                     resultElement = element;
+                    // 最初に見つかった時点でループを抜けます。
                     break;
                 }
             }
@@ -55,10 +57,11 @@ public class SeleniumManager
         catch (Exception ex)
         {
             // エラーハンドリングの例
-            Console.WriteLine($"An error occurred: {ex.Message}");
+            Console.WriteLine($"エラーが発生しました: {ex.Message}");
+            // エラーが発生した場合も、デフォルト値の resultElement (null) が返却されます。
         }
 
-        // 定義した戻り値用の変数を返却する
+        // 戻り値用の変数を返却します。
         return resultElement;
     }
 }
