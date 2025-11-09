@@ -11,7 +11,7 @@ public class Application
     {
         // 00-01（事前準備）
 
-        // 「セレニウム（Selenium）管理クラス」のインスタンスを生成
+        // 「Selenium管理クラス」のインスタンスを生成
         // var を使用して変数を定義します。
         var seleniumManager = new SeleniumManager();
 
